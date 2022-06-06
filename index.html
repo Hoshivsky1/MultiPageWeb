@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ua">
+	<head>
+		<title>Головна</title>
+		
+		<link rel="stylesheet" href="./css/style.css" />
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content=" width=device-width,
+		 initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="menu">
+					<div class="burger">
+						<nav role="navigation">
+							<div id="menuToggle">
+							  <input type="checkbox"/>
+							  <span></span>
+							  <span></span>
+							  <span></span>
+							  <ul id="menu">
+								<li class="nav-item">
+									<a class="nav-link" href="index.html">Головна</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="profile.html">Профіль</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="about.html">Про сайт</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="sign_in.html">Увійти</a>
+								</li>
+								<li class="nav-item">
+									<a class="btn" href="sign_up.html">Реєстрація</a>
+								</li>
+							  </ul>
+							</div>
+						  </nav>
+					</div>
+					<ul class="nav-list hidden">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Головна</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="profile.html">Профіль</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">Про сайт</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="sign_in.html">Увійти</a>
+						</li>
+						<li class="nav-item">
+							<a class="btn" href="sign_up.html">Реєстрація</a>
+						</li>
+					</ul>
+					<button class="btn-theme" onclick="toggleTheme()">
+						Theme
+					</button>
+                </div>
+            </header>
+			<main class="main">
+				<div class="conteiner">
+					<div class="index-block">
+						<div class="main-text">
+							<div class="index-title">Калькулятор</div>
+							<div class="index-subtitle">Калькулятор без батарейок
+								 може дати гарне вирішення.</div>
+							<div class="index-button">
+								<a class="btn" href="calc.html">Розпочати</a>
+							</div>
+						</div>
+						<div class="main-img">
+							<a href="calc.html">
+								<img src="./img/calc.png" alt="calc">
+							</a>
+						</div>	
+					</div>	
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="block">
+					<span>Hoshivskyi</span>
+				</div>
+			</footer>
+        </div>
+		<script src="./js/controller/controller.js"></script>
+    </body>
+</html>

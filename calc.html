@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ua">
+	<head>
+		<title>Головна</title>
+		
+		<link rel="stylesheet" href="./css/style.css" />
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content=" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="menu">
+					<div class="burger">
+						<nav role="navigation">
+							<div id="menuToggle">
+							  <input type="checkbox"/>
+							  <span></span>
+							  <span></span>
+							  <span></span>
+							  <ul id="menu">
+								<li class="nav-item">
+									<a class="nav-link" href="index.html">Головна</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="profile.html">Профіль</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="about.html">Про сайт</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="sign_in.html">Увійти</a>
+								</li>
+								<li class="nav-item">
+									<a class="btn" href="sign_up.html">Реєстрація</a>
+								</li>
+							  </ul>
+							</div>
+						  </nav>
+					</div>
+					<ul class="nav-list hidden">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Головна</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="profile.html">Профіль</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">Про сайт</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="sign_in.html">Увійти</a>
+						</li>
+						<li class="nav-item">
+							<a class="btn" href="sign_up.html">Реєстрація</a>
+						</li>
+					</ul>
+					<button class="btn-theme" onclick="toggleTheme()">
+						Theme
+					</button>
+                </div>
+            </header>
+			<main class="main">
+				<div class="conteiner-calc">
+					<section class="section">
+						<div class="blocks">
+							<div id="display"></div>
+							<div class="buttons">
+								<div class="button">C</div>
+								<div class="button">/</div>
+								<div class="button">*</div>
+								<div class="button">&larr;</div>
+								<div class="button">7</div>
+								<div class="button">8</div>
+								<div class="button">9</div>
+								<div class="button">-</div>
+								<div class="button">4</div>
+								<div class="button">5</div>
+								<div class="button">6</div>
+								<div class="button">+</div>
+								<div class="button">1</div>
+								<div class="button">2</div>
+								<div class="button">3</div>
+								<div class="button">.</div>
+								<div class="button">(</div>
+								<div class="button">0</div>
+								<div class="button">)</div>
+								<div id="equal" class="button">=</div>
+							 </div>
+						</div>
+					</section>
+					<script src="index.js"></script>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="block">
+					<span>Hoshivskyi</span>
+				</div>
+			</footer>
+        </div>
+		<script src="js/model/model.js"></script>
+		<script src="./js/controller/controller.js"></script>
+    </body>
+</html>
